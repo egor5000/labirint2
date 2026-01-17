@@ -6,7 +6,7 @@ CELL = 25
 GRID = 21
 DELAY = 100
 DIRS = [(-1, 0), (0, 1), (1, 0), (0, -1)]
-EXITS_COUNT = 2  # <-- сколько выходов делать
+EXITS_COUNT = 2  
 
 
 class maze:
@@ -201,3 +201,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = maze(root)
     root.mainloop()
+
